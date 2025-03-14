@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c4f0c4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3ffe3;
+    padding: 20px;
+}
+
+header .logo h1 {
+    color: #ff7c8a;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.toggle-button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.title h2 {
+    font-size: 48px;
+    background-color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #6c47f5;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.social-media {
+    margin: 20px;
+}
+
+.social-media p {
+    margin: 5px;
+}
+
+.icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.app-links img {
+    width: 150px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
